@@ -11,9 +11,6 @@ This project is made by HTML, CSS, Bootstrap, Django, Python ,Sqlite, OpenCV etc
 
 <img src="images/BLANK_CHEQUE.png">
 
-<img src="images/CHEQUE.png">
-
-
 # In order to run this project follow the following steps: -
 
 1 -> Download the above Contents
@@ -80,12 +77,9 @@ This project is made by HTML, CSS, Bootstrap, Django, Python ,Sqlite, OpenCV etc
        cheque clearance along with the updated balance is sent to both the 
        parties.
        
-  <img src="images/6.1.png">
-       
-  <img src="images/6.2.png">
-      
-
-
+  <img src="images/6.1.png" width="150px" height="150px"> <img src="images/6.2.png" width="150px" height="150px">
+  
+     
 # SPECIAL CHANGES (only for users using windows): -
 In order to run this project, you need to install OpenCV and Tesseract.
 Also, the complete path of Tesseract needs to be given in extractDetails.py file as
