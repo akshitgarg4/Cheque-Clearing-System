@@ -1,0 +1,25 @@
+{% extends 'ChequeClearingSystem/base.html' %}
+{% block title %}Login{% endblock %}
+
+{% block body %}
+    {#    {% if error_message %}#}
+    {#        <p><strong>{{ error_message }}</strong></p>#}
+    {#    {% endif %}#}
+    <div class="box" id="login">
+        <h2><b>LOGIN</b></h2><br><br><br>
+
+        <form action="" method="post">
+            {% csrf_token %}
+            {% include 'ChequeClearingSystem/form-template.html' %}
+            <div style="text-align: center;">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <br>
+        <form>
+            <div style="text-align: center;">
+                <button type="submit" formaction="{% url 'ChequeClearingSystem:register' %}">Register</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
